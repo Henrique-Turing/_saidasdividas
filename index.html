@@ -14,52 +14,7 @@
 
 
 	<link rel="shortcut icon" href="logo.ico" />
-	<!--<link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2015/06/eataly-logo.jpg">-->
-	<!--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/wp-content/uploads/2015/06/favicon.ico">-->
-	<!--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/wp-content/uploads/2015/06/favicon.ico">-->
-	<!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/wp-content/uploads/2015/06/favicon.ico">-->
-	<!--<link rel="alternate" type="application/rss+xml" title="Eataly Brasil RSS Feed"
-		href="https://www.eataly.com.br/feed/">-->
-	<!--<link rel="alternate" type="application/atom+xml" title="Eataly Brasil Atom Feed"
-		href="https://www.eataly.com.br/feed/atom/">-->
-	<!--<link rel="pingback" href="https://www.eataly.com.br/xmlrpc.php">-->
-
-	<!--<script type="text/javascript" src="https://www.youtube.com/player_api"></script>-->
-	<!--<script type="text/javascript" src="https://a.vimeocdn.com/js/froogaloop2.min.js"></script>-->
-
-
-	<script type="text/javascript">
-		// Init aplication namespace 
-		var abb = {};
-		var php = {};
-
-		var mk_header_parallax, mk_banner_parallax, mk_page_parallax, mk_footer_parallax, mk_body_parallax;
-		var mk_captcha_placeholder = "Enter Captcha",
-			mk_captcha_invalid_txt = "Invalid. Try again.",
-			mk_captcha_correct_txt = "Captcha correct.",
-			mk_responsive_nav_width = 1140,
-			mk_grid_width = 1240,
-			mk_ajax_search_option = "header",
-			mk_preloader_txt_color = "#444444",
-			mk_preloader_bg_color = "#ffffff",
-			mk_accent_color = "#eae3d7",
-			mk_preloader_bar_color = "#ffffff",
-			mk_preloader_logo = "";
-		var mk_header_parallax = false,
-			mk_banner_parallax = false,
-			mk_page_parallax = false,
-			mk_footer_parallax = false,
-			mk_body_parallax = false,
-			mk_no_more_posts = "No More Posts";
-
-		function is_touch_device() {
-			return ('ontouchstart' in document.documentElement);
-		}
-
-	</script>
-	
-	
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!-- / Yoast SEO plugin. -->
 
 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -155,21 +110,24 @@
 	<!-- / Google Analytics by MonsterInsights -->
 	<script type="text/javascript">
 		window._wpemojiSettings = {
-			 "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/",
-			 "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/",
-			 "svgExt": ".svg",
-			 "source": {
-					   "concatemoji": "https:\/\/www.eataly.com.br\/wp-includes\/js\/wp-emoji-release.min.js" 
-					}
-					 };
+			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/",
+			"ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/",
+			"svgExt": ".svg",
+			"source": {
+				"concatemoji": "https:\/\/www.eataly.com.br\/wp-includes\/js\/wp-emoji-release.min.js"
+			}
+		};
 		!function (e, a, t) {
-			 var r, n, o, i, p = a.createElement("canvas"),
-			  s = p.getContext && p.getContext("2d");
-			   function c(e, t) { var a = String.fromCharCode;
-			    s.clearRect(0, 0, p.width, p.height),
-				 s.fillText(a.apply(this, e), 0, 0);
-				  var r = p.toDataURL();
-				   return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL() } function l(e) { if (!s || !s.fillText) return !1; switch (s.textBaseline = "top", s.font = "600 32px Arial", e) { case "flag": return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447])); case "emoji": return !c([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 } function d(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (i = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, o = 0; o < i.length; o++)t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji))) }(window, document, window._wpemojiSettings);
+			var r, n, o, i, p = a.createElement("canvas"),
+				s = p.getContext && p.getContext("2d");
+			function c(e, t) {
+				var a = String.fromCharCode;
+				s.clearRect(0, 0, p.width, p.height),
+					s.fillText(a.apply(this, e), 0, 0);
+				var r = p.toDataURL();
+				return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
+			} function l(e) { if (!s || !s.fillText) return !1; switch (s.textBaseline = "top", s.font = "600 32px Arial", e) { case "flag": return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447])); case "emoji": return !c([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 } function d(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (i = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, o = 0; o < i.length; o++)t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
+		}(window, document, window._wpemojiSettings);
 	</script>
 	<style type="text/css">
 		img.wp-smiley,
@@ -185,9 +143,11 @@
 			padding: 0 !important;
 		}
 	</style>
-	<link rel='stylesheet' id='espresso_default-css'
+	
+	
+	<!--<link rel='stylesheet' id='espresso_default-css'
 		href='https://www.eataly.com.br/wp-content/plugins/event-espresso-core-reg/core/templates/global_assets/css/espresso_default.css'
-		type='text/css' media='all' />
+		type='text/css' media='all' />-->
 	<link rel='stylesheet' id='sb_instagram_styles-css'
 		href='https://www.eataly.com.br/wp-content/plugins/instagram-feed/css/sb-instagram-2-2.min.css' type='text/css'
 		media='all' />
@@ -232,6 +192,42 @@
 	<link rel='stylesheet' id='js_composer_front-css'
 		href='https://www.eataly.com.br/wp-content/plugins/js_composer_3/assets/css/js_composer.min.css' type='text/css'
 		media='all' />
+	<script>
+		    $(document).ready(function() {
+      $("#setinhad").click(function(){
+         $('#setinhad').hide('fast');
+         $('.l2').show('fast');
+      });
+      $("#setinhau").click(function(){
+          $('.l2').hide('fast');
+          $("#setinhad").show('fast');
+      });
+  });
+	</script>
+		<script>
+		    $(document).ready(function() {
+      $("#setinhad2").click(function(){
+         $('#setinhad2').hide('fast');
+         $('.l22').show('fast');
+      });
+      $("#setinhau2").click(function(){
+          $('.l22').hide('fast');
+          $("#setinhad2").show('fast');
+      });
+  });
+	</script>
+		<script>
+		    $(document).ready(function() {
+      $("#setinhad3").click(function(){
+         $('#setinhad3').hide('fast');
+         $('.l23').show('fast');
+      });
+      $("#setinhau3").click(function(){
+          $('.l23').hide('fast');
+          $("#setinhad3").show('fast');
+      });
+  });
+	</script>
 	<script type='text/javascript' src='https://www.eataly.com.br/wp-includes/js/jquery/jquery.js'
 		id='jquery-core-js'></script>
 	<script type='text/javascript' id='layerslider-greensock-js-extra'>
@@ -399,14 +395,17 @@
 								</div>
 							</div>
 
-							<div style= "height: 0% !important;" class="header-logo logo-is-responsive logo-has-sticky">
+							<div style="height: 0% !important; margin-top: 10px;" class="header-logo logo-is-responsive logo-has-sticky">
 								<a href="#" title="saiadasdividas">
 
 									<img style="margin-top: 50%; margin-bottom: -65%;
 									" class="mk-desktop-logo dark-logo" alt="saiadasdividas" src="logo.png" />
-									<img style="margin-top: 50%; margin-bottom: -60%;" class="mk-desktop-logo light-logo" alt="saiadasdividas" src="logo.png" />
-									<img style="margin-top: 50%; margin-bottom: -60%;" class="mk-resposnive-logo" alt="saiadasdividas" src="logo.png" />
-									<img style="margin-top: 50%; margin-bottom: -60%;" class="mk-sticky-logo" alt="saiadasdividas" src="logo.png" />
+									<img style="margin-top: 50%; margin-bottom: -60%;"
+										class="mk-desktop-logo light-logo" alt="saiadasdividas" src="logo.png" />
+									<img style="margin-top: 50%; margin-bottom: -60%;" class="mk-resposnive-logo"
+										alt="saiadasdividas" src="logo.png" />
+									<img style="margin-top: 50%; margin-bottom: -60%;" class="mk-sticky-logo"
+										alt="saiadasdividas" src="logo.png" />
 								</a>
 							</div>
 						</div>
@@ -435,7 +434,7 @@
 													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
 													<a class="menu-item-link" href="#"><i
 															class="mk-moon-arrow-right-17"></i>xxxxx</a>
-													<ul style="" class="sub-menu ">
+													<ul class="sub-menu ">
 														<li id="menu-item-238"
 															class="menu-item menu-item-type-custom menu-item-object-custom">
 															<a class="menu-item-link" href="#">xxxxxxxxx</a></li>
@@ -466,7 +465,7 @@
 										<li id="menu-item-4514"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children no-mega-menu">
 											<a class="menu-item-link" href="#">OPÇÃOC</a>
-											<ul style="" class="sub-menu ">
+											<ul class="sub-menu ">
 												<li id="menu-item-9138"
 													class="menu-item menu-item-type-post_type menu-item-object-page"><a
 														class="menu-item-link" href="#">xxxxxxx</a></li>
@@ -526,7 +525,7 @@
 				</div>
 				<div class="mk-header-padding-wrapper"></div>
 
-				<div class="clearboth">alguma coisa aqui</div>
+				<div class="clearboth"></div>
 
 				<div class="mk-zindex-fix">
 
@@ -579,24 +578,21 @@
 										<div id="layerslider_10" class="ls-wp-container fitvidsignore"
 											style="width:830px;height:400px;margin:0 auto;margin-bottom: 0px;">
 											<div class="ls-slide" data-ls="duration:4000;kenburnsscale:1.2;"><img
-													width="830" height="400" src="img12.jpg" class="ls-bg" alt=""
+													width="830" height="400" src="img1.jpeg" class="ls-bg" alt=""
 													loading="lazy" sizes="(max-width: 830px) 100vw, 830px" /><a href="#"
 													target="_self" class="ls-link ls-link-on-top"></a></div>
 											<div class="ls-slide" data-ls="duration:4000;kenburnsscale:1.2;"><img
 													width="830" height="400" src="img2.jpg" class="ls-bg" alt=""
-													loading="lazy" sizes="(max-width: 830px) 100vw, 830px" /><a
-													href="https://www.eataly.com.br/comunicado-eataly/" target="_self"
-													class="ls-link ls-link-on-top"></a></div>
+													loading="lazy" sizes="(max-width: 830px) 100vw, 830px" /><a href="#"
+													target="_self" class="ls-link ls-link-on-top"></a></div>
 											<div class="ls-slide" data-ls="duration:4000;kenburnsscale:1.2;"><img
-													width="830" height="400" src="img3.jpg" class="ls-bg" alt=""
-													loading="lazy" sizes="(max-width: 830px) 100vw, 830px" /><a
-													href="https://www.eataly.com.br/mercado-livre/" target="_blank"
-													class="ls-link ls-link-on-top"></a></div>
+													width="830" height="400" src="img3.jpeg" class="ls-bg" alt=""
+													loading="lazy" sizes="(max-width: 830px) 100vw, 830px" /><a href="#"
+													target="_self" class="ls-link ls-link-on-top"></a></div>
 											<div class="ls-slide" data-ls="duration:4000;kenburnsscale:1.2;"><img
 													width="830" height="400" src="img4.jpg" class="ls-bg" alt=""
-													loading="lazy" sizes="(max-width: 830px) 100vw, 830px" /><a
-													href="https://www.eataly.com.br/ricette/" target="_blank"
-													class="ls-link ls-link-on-top"></a></div>
+													loading="lazy" sizes="(max-width: 830px) 100vw, 830px" /><a href="#"
+													target="_self" class="ls-link ls-link-on-top"></a></div>
 										</div>
 										<div class="vc_empty_space" style="height: 41px"><span
 												class="vc_empty_space_inner"></span></div>
@@ -604,11 +600,11 @@
 									</div>
 								</div>
 							</div>
-							<div style="margin-left: 50%; transform: translateX(-50%); padding: 10px;">
-								<h3>SELECIONE O TIPO DE DÍVIDA</h3><br>
+							<div class="selecione" >
+								<h4 style=" display: block; text-align: center;">SELECIONE O TIPO DA DÍVIDA</h4><br>
 							</div>
 							<div class="wpb_row vc_row  vc_row-fluid  mk-fullwidth-false  attched-false vc_row-fluid">
-								<div style="" class="vc_col-sm-4 wpb_column column_container ">
+								<div class="vc_col-sm-4 wpb_column column_container ">
 									<div style="text-align: left;" class="mk-text-block  ">
 										<h4
 											style="background-color: #ebe4d8; padding: 6px; text-transform: uppercase; text-align: center; margin-bottom: 0px; font-size: 13px;">
@@ -622,15 +618,24 @@
 												<div class="clearboth"></div>
 											</div>
 											<div class="mk-text-block ">
-												<p style="text-align: center;">1 - Empréstimo consignado para servidores
-													públicos e servidores estatais R$ 90,00 </p>
-												<p style="text-align: center;">2 - Empréstimo Consignado para Aposentados e pensionistas R$ 75,00</p>
-												<p style="text-align: center;">3 - Empréstimo Consignado em Geral R$ 150,00</p>
-												<p style="text-align: center;">4 - Dívidas ou Empréstimos nos Contratos de Crédito Eletrônico ou Automático R$ 150,00</p>
-												<p style="text-align: center;">5 - Empréstimos nos Convênios para descontos de títulos para Pessoa Jurídica R$ 150,00</p>
-												<p style="text-align: center;">6 - Empréstimos em Geral para Jurídica R$ 150,00</p>
-												<p style="text-align: center;">7 - Empréstimos em Geral para Pessoa Física R$ 150,00</p>
-												<p style="text-align: center;">8 - Empréstimos para Investimentos e Aquisições em Geral R$ 300,00</p>
+												<ul>
+													<li class="lista">1 - Empréstimo Consignado para Servidores Públicos
+														e Servidores Estatais.</li>
+													<li class="lista">2 - Empréstimo Consignado para Aposentados e
+														Pensionistas.</li>
+													<li class="lista">3 - Empréstimo Consignado em Geral.</li>
+													<li class="lista">4 - Dívidas ou Empréstimos nos Contratos de
+														Crédito Eletrônico ou Automático.</li>
+													<li class="lista">5 - Empréstimos nos Convênios para Descontos de
+														títulos para Pessoa Jurídica.</li>
+													<li class="lista">6 - Empréstimos em Geral para Jurídica.</li>
+													<!--<div id="box-toggle">
+														<div class="tgl">-->
+													<img style="width: 15px; height: 15px; margin-left: 50%; transform: translateX(-50%); margin-bottom: -1%;" id="setinhad" src="down-chevron.png"></img>
+													<li style="display: none;" class="lista l2">7 - Empréstimos em Geral para Pessoa Física.</li>													
+													<li style="display: none;" class="lista l2">8 - Empréstimos para Investimentos e Aquisições em Geral.</li>
+													<img style="width: 15px; height: 15px; display: none;  margin-left: 50%; transform: translateX(-50%);" id="setinhau" class="l2" src="up-chevron.png"></img>
+												</ul>
 											</div>
 										</div>
 										<div class="clearboth"></div>
@@ -639,50 +644,86 @@
 									<div class="mk-shortcode mk-padding-shortcode" style="height:20px"></div>
 									<div class="clearboth"></div>
 								</div>
-								<div style="" class="vc_col-sm-4 wpb_column column_container vc_custom_1536868982432 ">
+								<div class="vc_col-sm-4 wpb_column column_container vc_custom_1536868982432 ">
 									<div style="text-align: left;" class="mk-text-block  ">
 										<h4
 											style="background-color: #ebe4d8; padding: 6px; text-transform: uppercase; text-align: center; margin-bottom: 0px; font-size: 13px;">
 											<a href="#"><strong>FINANCIAMENTO</strong></a></h4>
 										<div class="clearboth"></div>
 									</div>
-									<div style="text-align: left;" class="mk-text-block  border-bg-eventos">
+									<div class="mk-text-block  border-bg-eventos">
 										<div class="mk-text-block ">
-											<p style="text-align: center;">
-											<p style="text-align: center;">9 - Financiamento de Automóveis por Leasing</p>
-											<p style="text-align: center;">10 - Financiamento de Caminhões por Leasing R$ 270,00</p>
-											<p style="text-align: center;">11 - Financiamento de Tratores por Leasing</p>
-											<p style="text-align: center;">12 - Financiamento de Máquinários Industriais em geral por Leasing</p>
-											<p style="text-align: center;">13 - Financiamento de Aviões por Leasing</p>
-											
-											<p style="text-align: center;">14 - Financiamento de ônibus por Leasing</p>
-											<p style="text-align: center;">15 - Financiamento de Guindastes e Eq Pesados por Leasinhg</p>
-											<p style="text-align: center;">16 - Financiamento de Barcos, Lanchas, Veleiros e Iates por Leasing</p>
-											<p style="text-align: center;">17 - Financiamento de Motos e Motonetas por Leasing</p>
-											<p style="text-align: center;">18 - Financiamento de Jet Skis e Motonáticas por Leasing</p>
-											<p style="text-align: center;">19 - Financiamento de Automóveis por Arrendamento Mercantil</p>
-											<p style="text-align: center;">20 - Financiamento de Caminhões por Arrendamento Menrcantil</p>
-											<p style="text-align: center;">21 - Financiamento de Tratores por Arrendamento Mercantilo</p>
-											<p style="text-align: center;">22 - Financiamento de Máquinários industriais em Geral por Arrendamento Mercantil</p>
-											<p style="text-align: center;">23 - Financiamento de Aviões por Arrendamento Mercantil</p>
-											<p style="text-align: center;">24 - Financiamento de Ônibus por Arrendamento Mercantil</p>
-											<p style="text-align: center;">25 - Financiamento de Guindastes e Eq Pesados por Arrendamento Mercantil</p>
-											<p style="text-align: center;">26 - Financiamento de Barcos, Lanchas, Veleiros e Iates por Arrendamento Mercantil</p>
-											<p style="text-align: center;">27 - Financiamento de Motos e Motonetas por Arrendamento por Arrendamento Mercantil</p>
-											<p style="text-align: center;">28 - Financiamento de Jet Skis e Motonáuticas por Arrendamento Mercantil</p>
-											<p style="text-align: center;">29 - Financiamento de de Automóveis por Alienação fiduciária</p>
-											<p style="text-align: center;">30 - Financiamento de Caminhões por Alienação R$ 270,00</p>
-											<p style="text-align: center;">31 - Financiamento de Tratores por Alienação Fiduciária</p>
-											<p style="text-align: center;">32 - Financiamento de Maquinários Industriais em Geral por Alienação Fiduciária</p>
-											<p style="text-align: center;">33 - Financiamento de Aviões por Alienação Fiduciária</p>
-											<p style="text-align: center;">34 - Financiamento de Ônibus por Alienação Fiduciária</p>
-											<p style="text-align: center;">35 - Financiamento de Guindastes e Eq Pesados por Alienação Fiduciária R$ 450,00</p>
-											<p style="text-align: center;">36 - Financiamento de Barcos, Lanchas, Veleiros e Iates por Alienação Fiduciária R$ 300,00</p>
-											<p style="text-align: center;">37 - Financiamento de Motos e Motonetas por Alienação Fiduciária R$ 150,00</p>
-											<p style="text-align: center;">38 - Financiamento de Jet Skis e Motonáuticas por Alienação Fiduciária R$ 150,00</p>
-											<p style="text-align: center;">39 - Financiamento para Capital de Giro R$ 180,00</p>
-											<p style="text-align: center;">40 - Financiamento da Casa Própria ou de Imóvel pelo Sistema Financeiro Habitacional R$ 270,00</p>
-											<p style="text-align: center;">41 - Financiamento de Imóvel Diretamente com as Construtoras R$ 270,00</p>
+											<ul>
+												<li style="text-align: center;" class="lista">9 - Financiamento de
+													Automóveis por Leasing.</li>
+												<li style="text-align: center;" class="lista">10 - Financiamento de
+													Caminhões por Leasing.</li>
+												<li style="text-align: center;" class="lista">11 - Financiamento de
+													Tratores por Leasing.</li>
+												<li style="text-align: center;" class="lista">12 - Financiamento de
+													Máquinários Industriais em geral por Leasing.</li>
+												<li style="text-align: center;" class="lista">13 - Financiamento de
+													Aviões por Leasing.</li>
+													
+												<li style="text-align: center;" class="lista">14 - Financiamento de
+													ônibus por Leasing.</li>
+												<li style="text-align: center;" class="lista">15 - Financiamento de
+													Guindastes e Eq Pesados por Leasinhg</li>
+													<img style="width: 15px; height: 15px; margin-left: 50%; transform: translateX(-50%);" id="setinhad2" src="down-chevron.png"></img>
+												<li style="text-align: center;" class="lista l22">16 - Financiamento de
+													Barcos, Lanchas, Veleiros e Iates por Leasing</li>
+												<li style="text-align: center;" class="lista l22">17 - Financiamento de
+													Motos e Motonetas por Leasing.</li>
+												<li style="text-align: center;" class="lista l22">18 - Financiamento de Jet
+													Skis e Motonáticas por Leasing.</li>
+												<li style="text-align: center;" class="lista l22">19 - Financiamento de
+													Automóveis por Arrendamento Mercantil.</li>
+												<li style="text-align: center;" class="lista l22">20 - Financiamento de
+													Caminhões por Arrendamento Menrcantil.</li>
+												<li style="text-align: center;" class="lista l22">21 - Financiamento de
+													Tratores por Arrendamento Mercantilo.</li>
+												<li style="text-align: center;" class="lista l22">22 - Financiamento de
+													Máquinários industriais em Geral por Arrendamento Mercantil.</li>
+												<li style="text-align: center;" class="lista l22">23 - Financiamento de
+													Aviões por Arrendamento Mercantil.</li>
+												<li style="text-align: center;" class="lista l22">24 - Financiamento de Ônibus por
+													Arrendamento Mercantil.</li>
+												<li style="text-align: center;" class="listam l22">25 - Financiamento de
+													Guindastes e Eq. Pesados por Arrendamento Mercantil.</li>
+												<li style="text-align: center;" class="lista l22">26 - Financiamento de
+													Barcos, Lanchas, Veleiros e Iates por Arrendamento Mercantil.</li>
+												<li style="text-align: center;" class="lista l22">27 - Financiamento de
+													Motos e Motonetas por Arrendamento por Arrendamento Mercantil.</li>
+												<li style="text-align: center;" class="lista l22">28 - Financiamento de Jet
+													Skis e Motonáuticas por Arrendamento Mercantil.</li>
+												<li style="text-align: center;" class="lista l22">29 - Financiamento de de
+													Automóveis por Alienação fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">30 - Financiamento de
+													Caminhões por Alienação.</li>
+												<li style="text-align: center;" class="lista l22">31 - Financiamento de
+													Tratores por Alienação Fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">32 - Financiamento de
+													Maquinários Industriais em Geral por Alienação Fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">33 - Financiamento de
+													Aviões por Alienação Fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">34 - Financiamento de
+													Ônibus por Alienação Fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">35 - Financiamento de
+													Guindastes e Eq. Pesados por Alienação Fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">36 - Financiamento de
+													Barcos, Lanchas, Veleiros e Iates por Alienação Fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">37 - Financiamento de
+													Motos e Motonetas por Alienação Fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">38 - Financiamento de Jet
+													Skis e Motonáuticas por Alienação Fiduciária.</li>
+												<li style="text-align: center;" class="lista l22">39 - Financiamento para
+													Capital de Giro.</li>
+												<li style="text-align: center;" class="lista l22">40 - Financiamento da Casa
+													Própria ou de Imóvel pelo Sistema Financeiro Habitacional.</li>
+												<li style="text-align: center;" class="lista l22">41 - Financiamento de
+													Imóvel Diretamente com as Construtoras.</li>
+													<img style="width: 15px; height: 15px; display: none;  margin-left: 50%; transform: translateX(-50%);" id="setinhau2" class="l22" src="up-chevron.png"></img>
+											</ul>
 											<div class="clearboth" style="text-align: center;"></div>
 										</div>
 										<div class="clearboth" style="text-align: center;"></div>
@@ -692,7 +733,7 @@
 									<div class="mk-shortcode mk-padding-shortcode" style="height:20px"></div>
 									<div class="clearboth"></div>
 								</div>
-								<div style="" class="vc_col-sm-4 wpb_column column_container vc_custom_1536868941448 ">
+								<div class="vc_col-sm-4 wpb_column column_container vc_custom_1536868941448 ">
 									<div style="text-align: left;" class="mk-text-block  ">
 										<h4
 											style="background-color: #ebe4d8; padding: 6px; text-transform: uppercase; text-align: center; margin-bottom: 0px; font-size: 13px;">
@@ -701,15 +742,28 @@
 									</div>
 									<div style="text-align: left;" class="mk-text-block  border-bg-eventos">
 										<div class="mk-text-block ">
-											<p style="text-align: center;">42 - Dívidas no Cheque Especial R$ 150,00</p>
-											<p style="text-align: center;">43 - Dívidas no Cartão de Crédito de Bancos e Financeiras R$ 150,00</p>
-											<p style="text-align: center;">44 - Dívidas no Cartão de Crédito de Lojas e supermercadis R$ 150,00</p>
-											<p style="text-align: center;">45 - Dívidas ou empréstimos por Conta Garantida para Pessoa Jurídica R$ 150,00</p>
-											<p style="text-align: center;">46 - Dívidas ou Empréstimos no CDC - Crédito Direto ao Consumidor R$ 150,00</p>
-											<p style="text-align: center;">47 - Dívidas ou Empréstimos nos Contratos de Crédito Eletrônico ou Automático R$ 150,00</p>
-											<p style="text-align: center;">48 - Dívidas de Empréstimos ou Compras a prazo em Empresas em Geral R$ 150,00</p>
-											<p style="text-align: center;">49 - Dividas em empresas do Agronegócio (Vendas a Prazo de Insumos e Fertilizantes) R$ 370,00</p>
-											<p style="text-align: center;">50 - Dividas de Empréstimos em Empresas de Factoring R$ 150,00 </p>
+											<ul>
+											<li style="text-align: center;" class="lista">42 - Dívidas no Cheque
+												Especial.</li>
+											<li style="text-align: center;" class="lista">43 - Dívidas no Cartão de
+												Crédito de Bancos e Financeiras.</li>
+											<li style="text-align: center;" class="lista">44 - Dívidas no Cartão de
+												Crédito de Lojas e supermercadis.</li>
+											<li style="text-align: center;" class="lista">45 - Dívidas ou empréstimos por
+												Conta Garantida para Pessoa Jurídica.</li>
+											<li style="text-align: center;" class="lista">46 - Dívidas ou Empréstimos no
+												CDC - Crédito Direto ao Consumidor.</li>
+											<li style="text-align: center;" class="lista">47 - Dívidas ou Empréstimos nos
+												Contratos de Crédito Eletrônico ou Automático.</li>
+											<li style="text-align: center;" class="lista">48 - Dívidas de Empréstimos ou
+												Compras a prazo em Empresas em Geral.</li>
+												<img style="width: 15px; height: 15px; margin-left: 50%; transform: translateX(-50%);" id="setinhad3" src="down-chevron.png"></img>
+											<li style="text-align: center;" class="lista l23">49 - Dividas em empresas do
+												Agronegócio (Vendas a Prazo de Insumos e Fertilizantes).</li>
+											<li style="text-align: center;" class="lista l23">50 - Dividas de Empréstimos em
+												Empresas de Factoring.</li>
+												<img style="width: 15px; height: 15px; display: none;  margin-left: 50%; transform: translateX(-50%);" id="setinhau3" class="l23" src="up-chevron.png"></img>
+											</ul>
 										</div>
 										<div class="clearboth"></div>
 									</div>
@@ -719,70 +773,135 @@
 								</div>
 							</div>
 							<div class="wpb_row vc_row  vc_row-fluid  mk-fullwidth-false  attched-false vc_row-fluid">
-								<div style="" class="vc_col-sm-12 wpb_column column_container ">
+								<div class="vc_col-sm-12 wpb_column column_container ">
 									<div class="vc_empty_space" style="height: 32px"><span
 											class="vc_empty_space_inner"></span></div>
 
 								</div>
 							</div>
 							<div class="wpb_row vc_row  vc_row-fluid  mk-fullwidth-false  attched-false vc_row-fluid">
-								<div style="" class="vc_col-sm-12 wpb_column column_container ">
-									<div style="text-align: left;" class="mk-text-block  ">
-										<p><a href="https://www.eataly.com.br/eataly-amex/"><img loading="lazy"
-													class="aligncenter wp-image-6817 size-full" src="banner-branco.jpg"
-													alt="" width="700" height="88"
-													sizes="(max-width: 700px) 100vw, 700px" /></a></p>
-										<div class="clearboth"></div>
-									</div>
+								<div class="vc_col-sm-12 wpb_column column_container ">
 								</div>
 							</div>
-							<div class="clearboth"></div>
 						</div>
-						<aside id="mk-sidebar" class="mk-builtin">
-							<div class="sidebar-wrapper">
-								<section id="text-2" class="widget widget_text">
-									<div class="textwidget">
-										<div class="showhide-home">
-											<div class="timetable-1">
-
-											</div>
-
-
-										</div>
-
-						</aside>
 						<div class="clearboth"></div>
 					</div>
+					<aside id="mk-sidebar" class="mk-builtin">
+						<div class="sidebar-wrapper">
+							<section id="text-2" class="widget widget_text">
+								<div class="textwidget">
+									<div class="showhide-home">
+										<div class="timetable-1">
+										</div>
+									</div>
+					</aside>
+					<div class="clearboth"></div>
+				</div>
+				<div class="clearboth"></div>
+			</div>
+		</div>
+
+		<section id="mk-footer" class="">
+			<div class="footer-wrapper mk-grid">
+				<div class="mk-padding-wrapper">
+					<div class=""></div>
 					<div class="clearboth"></div>
 				</div>
 			</div>
-
-			<section id="mk-footer" class="">
-				<div class="footer-wrapper mk-grid">
-					<div class="mk-padding-wrapper">
-						<div class=""></div>
-						<div class="clearboth"></div>
-					</div>
+			<div style="text-align: center;" id="sub-footer">
+				<div class=" mk-grid">
+					<img src="ico-location.jpg" alt="location">Alameda Dr. Carlos de Carvalho, 417, sala 702 - Centro,
+					Curitiba <br>
+					<img src="tel-ico.jpg" alt="tel">+55 41 3088-3944 <br>
+					<img src="mail-ico.jpg" alt="mail">saiadasdividas@saiadasdividas.com.br
+					<span style="text-align: center;" class="mk-footer-copyright">SaiaDasDívidas @2020. Todos os
+						direitos reservados.
+					</span>
 				</div>
-				<div style="text-align: center;" id="sub-footer">
-					<div class=" mk-grid">
-						<img src="ico-location.jpg" alt="location">Alameda Dr. Carlos de Carvalho, 417 - Centro,
-						Curitiba <br>
-						<img src="tel-ico.jpg" alt="tel">+55 41 3088-3944 <br>
-						<img src="mail-ico.jpg" alt="mail">saiadasdividas@saiadasdividas.com.br
-						<span style="text-align: center;"
-							class="mk-footer-copyright">SaiaDasDívidas @2020. Todos os direitos reservados.
-						</span>
-					</div>
-					<div class="clearboth"></div>
-				</div>
+				<div class="clearboth"></div>
+			</div>
 
-			</section>
+		</section>
 
-		</div>
-		<script type="text/javascript">
-		</script>
+	</div>
+	<script type="text/javascript">
+	// Init aplication namespace 
+var abb = {};
+var php = {};
 
+var mk_header_parallax, mk_banner_parallax, mk_page_parallax, mk_footer_parallax, mk_body_parallax;
+var mk_captcha_placeholder = "Enter Captcha",
+    mk_captcha_invalid_txt = "Invalid. Try again.",
+    mk_captcha_correct_txt = "Captcha correct.",
+    mk_responsive_nav_width = 1140,
+    mk_grid_width = 1240,
+    mk_ajax_search_option = "header",
+    mk_preloader_txt_color = "#444444",
+    mk_preloader_bg_color = "#ffffff",
+    mk_accent_color = "#eae3d7",
+    mk_preloader_bar_color = "#ffffff",
+    mk_preloader_logo = "";
+var mk_header_parallax = false,
+    mk_banner_parallax = false,
+    mk_page_parallax = false,
+    mk_footer_parallax = false,
+    mk_body_parallax = false,
+    mk_no_more_posts = "No More Posts";
+
+function is_touch_device() {
+    return ('ontouchstart' in document.documentElement);
+}
+
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    
+    $('.tgl').before('<img id="imgtg" src="setinhad.ico" />');
+    
+    $('.tgl').css('display', 'none')
+    
+    $('img', '#box-toggle').click(function() {
+        
+    $(this).next().slideToggle('fast')
+    .siblings('.tgl:visible').slideToggle('fast');
+   
+    
+    });
+
+    })
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    
+    $('.tgl1').before('<img id="imgtg" src="setinhad.ico" />');
+    
+    $('.tgl1').css('display', 'none')
+    
+    $('img', '#box-toggle1').click(function() {
+        
+    $(this).next().slideToggle('fast')
+    .siblings('.tgl1:visible').slideToggle('fast');
+    
+    
+    });
+
+    })
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    
+    $('.tgl2').before('<img id="imgtg" src="setinhad.ico" />');
+    
+    $('.tgl2').css('display', 'none')
+    
+    $('img', '#box-toggle2').click(function() {
+        
+    $(this).next().slideToggle('fast')
+    .siblings('.tgl2:visible').slideToggle('fast'); 
+    });
+
+    })
+	</script>
 	</div>
 
 	<a href="#" class="mk-go-top"><i class="mk-icon-chevron-up"></i></a>
